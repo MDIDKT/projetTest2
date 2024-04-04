@@ -16,7 +16,7 @@ body{
 }
 .logo{
     margin: 20px;
-    width: 200px;
+    width: 100px;
 }
 .headerNav ul{
     display: flex;
@@ -148,3 +148,121 @@ footer .socialMedia a{
 }
 
 /*footer*/
+
+/*page connexion*/
+.pageConnexion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pageConnexion div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #7b7b7b5c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+}
+.pageConnexion form{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.pageConnexion form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.pageConnexion form .connexion{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #dc1515;
+    color: #f1f1f1f1;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pageConnexion form .connexion:hover{
+    background-color: #f1f1f1f1;
+    color: #333;
+}
+.pageConnexion form a{
+    text-decoration: none;
+    color: #f1f1f1f1;
+    font-weight: bold;
+}
+.pageConnexion form a:hover{
+    color: #333;
+}
+
+/*page inscription*/
+.pageInscription div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #7b7b7b5c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+    width: 50%;
+    margin: 0 auto;
+}
+.pageInscription form{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.pageInscription form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.pageInscription form button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #f1f1f1f1;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pageInscription form button:hover{
+    background-color: #f1f1f1f1;
+    color: #333;
+}
+.pageInscription form a{
+    text-decoration: none;
+    color: #f1f1f1f1;
+    font-weight: bold;
+}
+.pageInscription form a:hover{
+    color: #333;
+}
+
+/*page acceuil*/
+.pageAcceuil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #7b7b7b5c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+    width: 50%;
+    margin: 0 auto;
+}
