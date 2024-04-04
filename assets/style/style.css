@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #333;
 }
 .logo{
     margin: 20px;
@@ -29,7 +30,7 @@ body{
     justify-content: center ;
     align-items: center;
     text-decoration: none;
-    color: #333;
+    color: #f1f1f1f1;
     font-weight: bold;
     transition: 0.3s;
     
@@ -43,17 +44,107 @@ body{
 .headerNav ul li a i{
     margin-right: 5px;
 }
+main{
+background-image: url(../images/TaeAugust07.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh;
+display: flex;
+align-items: center;
+}
+/*section 1 presentation*/
 
-/*section*/
-.carousel
-{
-    width: 100px;
-    height: 100vh;
+.section1{
+    padding: 20px;
+}
+.section1 .image1{
+    width: 100%;
     display: flex;
+    display: cover;
     justify-content: center;
     align-items: center;
-
-    background-size: cover;
-    background-position: center;
+}
+.section1 div{
+margin: 20px;
+padding: 30px;
+position: absolute;
+background-color: #7b7b7b5c;
+color: #f1f1f1f1;
+border-radius: 10px;
+box-shadow: 0 0 10px #333;
+width: 40%;
 
 }
+
+
+
+/*section 2 services*/
+.services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.services div{
+    width: 30%;
+    background-color: #f1f1f1f1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+}
+.services img{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+}
+.services h3{
+    margin: 20px 0;
+    color: #815959;
+
+}
+.services p{
+    color: rgb(39, 19, 212);
+}
+.services :hover{
+    background-color: #e67300;
+    transition: 0.9s;
+}
+
+/*footer contact*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+    background-color: #333;
+
+}
+footer div{
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+}
+footer p{
+    font-size: 16px;
+    color: #f1f1f1f1;
+}
+footer h3{
+    color: #f1f1f1f1;
+}
+footer .socialMedia a{
+    margin: 0 10px;
+    color: #f1f1f1f1;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+/*footer*/

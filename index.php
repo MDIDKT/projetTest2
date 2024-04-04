@@ -11,7 +11,7 @@
 <body>
     <!-- Header: navbar; logo-->
     <header class="headerAcceuil">
-    <img class="logo" src="assets/images/lettre-o-realiste-surface-coloree.jpg" alt="logo">
+    <a href="#"><img class="logo" src="assets/images/lettre-o-realiste-surface-coloree.jpg" alt="logo" ></a>
         <nav class="headerNav">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -20,34 +20,37 @@
             </ul>
         </nav>
     </header>
-    <!--section1: carousel; description-->
-    <section class="carousel">
-        <div class="carouselSlide">
-            <img src="assets/images/TaeAugust07.jpg" alt="image1">
-            <img src="assets/images/2105.q702.020.S.m005.c10.hospital room.jpg" alt="image2">
-            <img src="assets/images/lettre-o-realiste-surface-coloree.jpg" alt="image3">
+    <main>
+        
+    <!--section1: Presentation-->
+    <section class="section1">
+
+        <div>
+            <h1>Titre1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dicta autem non libero quas? Quod vero incidunt repellat architecto laborum, fugit eligendi aliquid, provident quae, eos quidem dolorum eius neque beatae qui pariatur doloribus iste sequi! Iusto alias temporibus ex aspernatur, accusamus aperiam a odio qui nesciunt perspiciatis nostrum officiis? Quisquam, quos.</p>
         </div>
     </section>
-
+    </main>
     <!--section2: services; 3 services -->
     <section class="services">
         <div class="service1">
-            <img src="assets/images/lettre-o-realiste-surface-coloree.jpg" alt="service1">
+            <a href="#"><img src="assets/images/lettre-o-realiste-surface-coloree.jpg" alt="service1"></a>
             <h3>Service1</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
         </div>
         <div class="service2">
-            <img src="assets/images/lettre-o-realiste-surface-coloree.jpg" alt="service2">
+           <a href="#"> <img src="assets/images/lettre-o-realiste-surface-coloree.jpg" alt="service2"></a>
             <h3>Service2</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
         </div>
         <div class="service3">
-            <img src="assets/images/lettre-o-realiste-surface-coloree.jpg" alt="service3">
+            <a href="#"><img src="assets/images/lettre-o-realiste-surface-coloree.jpg" alt="service3"></a>
             <h3>Service3</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
         </div>
+    </section>
     
-    <!--footer: contact; social media-->
+    <!--footer: contact; social media-->       
     <footer>
         <div class="contact">
             <h3>Contact</h3>
@@ -61,8 +64,8 @@
             <a href="#"><img src="assets/images/instagram.png" alt="instagram"></a>
             <a href="#"><img src="assets/images/twitter.png" alt="twitter"></a>
         </div>
-        copyrigth 2020 
-    </footer>
+         &copy; 2020 MonSiteTest2
+    </footer>                                         
 
 </body>
 </html>
