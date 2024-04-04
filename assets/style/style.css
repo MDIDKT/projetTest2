@@ -185,7 +185,7 @@ footer .socialMedia a{
     margin: 10px;
     border-radius: 5px;
     border: none;
-    background-color: #dc1515;
+    background-color: #333;
     color: #f1f1f1f1;
     font-weight: bold;
     cursor: pointer;
@@ -254,15 +254,115 @@ footer .socialMedia a{
 }
 
 /*page acceuil*/
-.pageAcceuil{
+
+.Historique{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.Historique div{
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+    background-color: #7b7b7b5c;
+
+}
+
+.Historique h3{
+    color: #f1f1f1f1;
+}
+.Historique p{
+    color: #f1f1f1f1;
+
+}
+.Historique img{
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+}
+.Historique div.future:hover{
+    background-color: #274837;
+    transition: 0.9s;
+}
+.Historique div.passer:hover{
+    background-color: #4b4b4b7a;
+    transition: 0.9s;
+}
+
+
+/*page historique*/
+
+/*historique à venir*/
+.histoAVenir{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 20px;
     padding: 20px;
-    background-color: #7b7b7b5c;
+    
+}
+div.histoAVenir{
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px #333;
+    background-color: #7b7b7b5c;
+}
+div.histoAVenir div p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+/*historique passé*/
+.histoPasse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e67300;
+}
+div.histoPasse{
     width: 50%;
-    margin: 0 auto;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+    background-color: #7b7b7b5c;
+}
+section.pageHistorique{
+display: flex; 
+justify-content: center;
+align-items: center;
+flex-wrap: wrap ;
+width: 70%;
+}
+/*historique en cours*/
+.histoEnCours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e67300;
+}
+div.histoEnCours{
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+    background-color: #7b7b7b5c;
 }

@@ -20,12 +20,26 @@
         </div>
     </section>
     </main>
-    <div class="pageAccueil">
-        <a href="#"><img src="assets/images/lettre-o-realiste-surface-coloree.jpg" alt="service1"></a>
-        <h3>Service1</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
-    </div>
+
     <!--section2: services; 3 services -->
+ 
+    <h2>Historique</H2>
+
+    <section class="Historique">
+   
+        <div class="future">
+        <h3>prochain rendez-vous</h3>
+            <a href="historique.php"><img src="assets/images/lettre-o-realiste-surface-coloree.jpg" alt="prochain rendez-vous"></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+
+        </div>
+        <div class="passer">
+        <h3>Rendez-vous passé</h3>
+           <a href="historique.php"> <img src="assets/images/lettre-o-realiste-surface-coloree.jpg" alt="Rendez-vous passé"></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+
+        </div>
+    </section>
     <section class="services">
         <div class="service1">
             <a href="#"><img src="assets/images/lettre-o-realiste-surface-coloree.jpg" alt="service1"></a>
@@ -43,6 +57,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
         </div>
     </section>
+    
     <!--footer: contact; social media-->
     <?php include 'templates/footer.php'; ?>
 </body>
